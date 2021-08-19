@@ -4,5 +4,5 @@ import 'quizapp/anasayfa.dart';
 import 'package:provider/provider.dart';
 
 void main() {
-  runApp(const bilmemne());
+  runApp(const StartApp());
 }
