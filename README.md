@@ -3,5 +3,5 @@
 
 ⚡ Social Media
 
-oguzhan74erbil | Instagram Instagram: @oguzhan74erbil
+!oguzhan74erbil | Instagram Instagram: @oguzhan74erbil
 
