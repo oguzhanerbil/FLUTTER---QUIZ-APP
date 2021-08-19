@@ -3,5 +3,5 @@
 
 ⚡ Social Media
 
-Instagram: @oguzhan74erbil
+https://www.instagram.com/JohannesMilke/ Instagram: @oguzhan74erbil
 
