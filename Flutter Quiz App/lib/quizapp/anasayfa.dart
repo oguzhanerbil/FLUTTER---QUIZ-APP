@@ -6,8 +6,8 @@ import 'package:test_uygulama/quizapp/homesayfa.dart';
 import 'package:line_icons/line_icon.dart';
 import 'package:http/http.dart' as http;
 
-class bilmemne extends StatelessWidget {
-  const bilmemne({Key? key}) : super(key: key);
+class StartApp extends StatelessWidget {
+  const StartApp({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
