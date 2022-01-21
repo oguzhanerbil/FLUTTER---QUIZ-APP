@@ -28,8 +28,9 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  //late Future<dynamic> Soru;
+  // Sayfalar
   final pages = <Widget>[];
+  // Sayfa değişimi için
   PageController _myPage = PageController(initialPage: 0);
 
   int index = 0;
@@ -211,7 +212,8 @@ class _HomePageState extends State<HomePage> {
                       floatingActionButtonLocation:
                           FloatingActionButtonLocation.centerDocked,
                       bottomNavigationBar: TabBarMaterialWidget(
-                        index: index,
+                        
+                        : index,
                         onChangedTab: onChangedTab,
                       ),
                     ),
