@@ -34,6 +34,7 @@ class Baglanti extends StatelessWidget {
       builder: (context, data) {
         // ignore: unnecessary_question_mark
         // List<dynamic?>? myData = data.data;
+        // Future dan dönen data myData değişkenine atanıyor
         var myData = json.decode(data.data.toString());
         if (myData == null) {
           return Scaffold(
@@ -136,9 +137,13 @@ class _HomeState extends State<Home> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     SizedBox(height: 50),
+                    // a şıkkı
                     Buton("a"),
+                    // b şıkkı
                     Buton("b"),
+                    // c şıkkı
                     Buton("c"),
+                    // d şıkkı
                     Buton("d"),
                     SizedBox(height: 20)
                   ]),
@@ -161,7 +166,8 @@ class _HomeState extends State<Home> {
       btncolor[k] = colortoshow;
     });
   }
-
+  
+  // Şıklar için olan fonksiyon
   Material Buton(String k) {
     return Material(
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
@@ -183,6 +189,7 @@ class _HomeState extends State<Home> {
           decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(20), color: btncolor[k]),
           child: Text(
+            // json dosyasından veri çekmek için
             myData[1][i.toString()][k],
             style: TextStyle(color: Colors.black),
           ),
